@@ -6,7 +6,6 @@ class App extends React.Component {
         this.props.store.dispatch(actionFor.vote(value))
     }
 
-
     render() {
         const anecdotes = this.props.store.getState()
         return (
